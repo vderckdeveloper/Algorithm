@@ -6,7 +6,7 @@ function solution(n) {
 
     const decimalList = [];
     const isPrime = Array(n + 1).fill(true);
-    isPrime[0] = isPrime[1] = false; // 0과 1은 소수가 아님
+    isPrime[0] = isPrime[1] = false; // 0 and 1 are not decimal
 
     // Sieve of Eratosthenes
     for (let i = 2; i <= Math.sqrt(n); i++) {
